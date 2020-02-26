@@ -23,7 +23,7 @@ export default ({product}) => {
   return (
     <Grid item xs>
           <Paper className={classes.paper}>
-          <img src={product.mobileImageURLs[0]} width="100" height="200" />
+          <img src={product.mobileImageURLs[0]} width="101" height="200" />
           <Typography>
             <Link to={{
               pathname: '/detail',
